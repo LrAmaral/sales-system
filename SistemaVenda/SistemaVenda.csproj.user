@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View\Atualizar\AtualizarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Atualizar\AtualizarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Atualizar\AtualizarVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Atualizar\AtualizarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Buscar\ClienteBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Deletar\DeletarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Deletar\DeletarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Deletar\DeletarVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Deletar\DeletarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form\FormVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form\FormVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Gerenciar\GerenciarVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Gerenciar\GerenciarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\MenuLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Painel\Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Painel\PainelPrincipalGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Listar\ListarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Listar\ListarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Listar\ListarVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Listar\ListarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Painel\PainelPrincipalVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Buscar\ProdutoBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Buscar\VendaBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Buscar\VendedorBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Gerenciar\GerenciarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Gerenciar\GerenciarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form\FormProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

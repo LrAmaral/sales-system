@@ -1,0 +1,319 @@
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.exe
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.deps.json
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.runtimeconfig.json
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.GenerateResource.cache
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfoInputs.cache
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfo.cs
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\refint\SistemaVenda.dll
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.genruntimeconfig.cache
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\ref\SistemaVenda.dll
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Properties.Resources.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuPrivado.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuLogin.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuCadastro.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Menu.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuCadastroProduto.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarCliente.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarProduto.resources
+C:\Users\Luciano\Desktop\SistemaVenda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.sourcelink.json
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.exe
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.deps.json
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.runtimeconfig.json
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarCliente.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarProduto.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Menu.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuCadastro.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuCadastroProduto.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuLogin.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuPrivado.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Properties.Resources.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.GenerateResource.cache
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfoInputs.cache
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfo.cs
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CoreCompileInputs.cache
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\refint\SistemaVenda.dll
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.genruntimeconfig.cache
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\ref\SistemaVenda.dll
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Buscar.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarCliente.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarProduto.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendas.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendedor.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.VendaBusca.resources
+C:\Users\joaop\Documents\Projetos\Sistema_De_Vendas\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.VendedorBusca.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.exe
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.deps.json
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.runtimeconfig.json
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Buscar.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarCliente.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarProduto.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendas.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendedor.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarCliente.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarProduto.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarClientes.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarProduto.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarVendas.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarVendedor.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuLogin.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Properties.Resources.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.VendedorBusca.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.GenerateResource.cache
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfoInputs.cache
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfo.cs
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.sourcelink.json
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\refint\SistemaVenda.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.genruntimeconfig.cache
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\ref\SistemaVenda.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.AssemblyReference.cache
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CopyComplete
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll.config
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.GerenciarVendedor.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.GerenciarVendas.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.PainelPrincipalGerente.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.PainelPrincipalVendedor.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.FormVenda.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.ProdutoBusca.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.VendaBusca.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarCliente.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.FormVendedor.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarProduto.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarVenda.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarVendedor.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.FormCliente.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.FormProduto.resources
+C:\Users\Luciano\Documents\sistemavenda\sistema-venda\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.View.Painel.Cadastro.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.exe
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll.config
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.deps.json
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.runtimeconfig.json
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.AssemblyReference.cache
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Properties.Resources.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarCliente.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarProduto.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarVenda.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarVendedor.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Buscar.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.ProdutoBusca.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.VendaBusca.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.VendedorBusca.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarCliente.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarProduto.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendas.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendedor.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.FormCliente.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.FormProduto.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.FormVenda.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.FormVendedor.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarCliente.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarProduto.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.GerenciarVendas.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.GerenciarVendedor.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarClientes.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarProduto.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarVendas.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarVendedor.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuLogin.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.View.Painel.Cadastro.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.PainelPrincipalGerente.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.PainelPrincipalVendedor.resources
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.GenerateResource.cache
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfoInputs.cache
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfo.cs
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CopyComplete
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\refint\SistemaVenda.dll
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.genruntimeconfig.cache
+C:\Users\Filipe\Documents\FACULDADE\4º SEMESTRE\TPI\Projeto Final\sistema-venda-master (2)\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\ref\SistemaVenda.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.exe
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll.config
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.deps.json
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.runtimeconfig.json
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.AssemblyReference.cache
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Properties.Resources.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarCliente.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarProduto.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarVenda.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.AtualizarVendedor.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Buscar.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.ProdutoBusca.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.VendaBusca.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.VendedorBusca.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarCliente.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarProduto.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendas.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.DeletarVendedor.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.FormCliente.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.FormProduto.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.FormVenda.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.FormVendedor.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarCliente.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GerenciarProduto.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.GerenciarVendas.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.GerenciarVendedor.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarClientes.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarProduto.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarVendas.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.ListarVendedor.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.MenuLogin.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.View.Painel.Cadastro.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.PainelPrincipalGerente.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.Forms.PainelPrincipalVendedor.resources
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.GenerateResource.cache
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfoInputs.cache
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.AssemblyInfo.cs
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.csproj.CopyComplete
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\refint\SistemaVenda.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.pdb
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.genruntimeconfig.cache
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\ref\SistemaVenda.dll

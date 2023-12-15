@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SistemaVenda",
+    "\\SistemaVenda\\Dal",
+    "\\SistemaVenda\\View",
+    "\\SistemaVenda\\View\\Buscar",
+    "\\SistemaVenda\\View\\Form",
+    "\\SistemaVenda\\View\\Listar",
+    "\\SistemaVenda\\View\\Painel"
+  ],
+  "SelectedNode": "\\SistemaVenda\\View\\Form\\FormVenda.cs",
+  "PreviewInSolutionExplorer": false
+}

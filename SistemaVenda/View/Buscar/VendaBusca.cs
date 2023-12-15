@@ -1,0 +1,62 @@
+﻿using SistemaVenda.Dal;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SistemaVenda.Forms
+{
+    public partial class VendaBusca : Form
+    {
+        public VendaBusca()
+        {
+            InitializeComponent();
+            CenterToScreen();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            vendaDal dal = new vendaDal();
+
+            if (int.TryParse(textBox1.Text, out int codVenda))
+            {
+                DataTable dt = dal.FindById(codVenda);
+
+                if (dt.Rows.Count > 0)
+                {
+                    dataGridView1.DataSource = dt;
+                }
+                else
+                {
+                    MessageBox.Show("Venda não encontrada.");
+                    dataGridView1.DataSource = null;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Informe um ID válido para buscar a venda.");
+                dataGridView1.DataSource = null;
+            }
+        }
+
+        private void Voltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
