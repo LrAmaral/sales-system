@@ -42,25 +42,25 @@ namespace SistemaVenda.Forms
         {
             if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && textBox4.Text.Length > 0)
             {
-                if (dataGridView1.SelectedRows.Count > 0)
-                {
-                    int idCliente = int.Parse(textBox1.Text);
+                int idCliente;
 
+                if (int.TryParse(textBox1.Text, out idCliente))
+                {
                     if (string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text) || string.IsNullOrWhiteSpace(textBox4.Text))
                     {
                         MessageBox.Show("Preencha todos os campos antes de atualizar o cliente.");
                         return;
                     }
 
-                    if (!int.TryParse(textBox3.Text, out int idade))
+                    if (!int.TryParse(textBox3.Text, out int idade) || idade <= 0 || textBox3.Text.Length != 2)
                     {
-                        MessageBox.Show("Informe uma idade válida.");
+                        MessageBox.Show("Informe uma idade válida, não é permitido letras, nem valores negativos, mais de 2 dígitos ou 0 nesse campo.");
                         return;
                     }
 
-                    if (!long.TryParse(textBox4.Text, out long cpf))
+                    if (!long.TryParse(textBox4.Text, out long cpf) || cpf <= 0 || textBox4.Text.Length != 11)
                     {
-                        MessageBox.Show("Informe um CPF válido.");
+                        MessageBox.Show("Informe um CPF válido com somente 11 números.");
                         return;
                     }
 
@@ -74,6 +74,7 @@ namespace SistemaVenda.Forms
                     {
                         MessageBox.Show("Cliente atualizado com sucesso!");
                         button3_Click(sender, e);
+                        LimparCampos();
                     }
                     else
                     {
@@ -82,7 +83,7 @@ namespace SistemaVenda.Forms
                 }
                 else
                 {
-                    MessageBox.Show("Selecione um cliente para atualizar.");
+                    MessageBox.Show("Informe um ID válido para atualizar o cliente.");
                 }
             } else
             {
@@ -92,6 +93,17 @@ namespace SistemaVenda.Forms
                     MessageBoxIcon.Warning);
             }
         }
+
+        private void LimparCampos()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+
+            textBox1.Enabled = true;
+        }
+
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -111,6 +123,7 @@ namespace SistemaVenda.Forms
                     textBox2.Text = clienteDataTable.Rows[0]["nome"].ToString();
                     textBox3.Text = clienteDataTable.Rows[0]["idade"].ToString();
                     textBox4.Text = clienteDataTable.Rows[0]["cpf"].ToString();
+                    textBox1.Enabled = false;
                 }
                 else
                 {

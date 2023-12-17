@@ -269,6 +269,8 @@ namespace SistemaVenda.Dal
 
                     if (item.quantidade == 0)
                     {
+                        MessageBox.Show($"O produto {item.codProduto} foi excluído da venda. Verifique.");
+
                         string deleteItemSql = "DELETE FROM tbl_ItemVenda WHERE codProduto = @id AND codVenda = @codVenda";
                         SqlCommand deleteItemCmd = new SqlCommand(deleteItemSql, con, transaction);
                         deleteItemCmd.Parameters.AddWithValue("@id", item.codProduto);
@@ -277,9 +279,10 @@ namespace SistemaVenda.Dal
                     }
                     else
                     {
-                        string itemSql = "UPDATE tbl_ItemVenda SET quantidade = @quantidade, totalItem = @totalItem WHERE codProduto = @id";
+                        string itemSql = "UPDATE tbl_ItemVenda SET quantidade = @quantidade, totalItem = @totalItem WHERE codProduto = @id AND codVenda = @codVenda";
                         SqlCommand itemCmd = new SqlCommand(itemSql, con, transaction);
                         itemCmd.Parameters.AddWithValue("@id", item.codProduto);
+                        itemCmd.Parameters.AddWithValue("codVenda", item.codVenda);
                         itemCmd.Parameters.AddWithValue("@quantidade", item.quantidade);
                         itemCmd.Parameters.AddWithValue("@totalItem", item.valorUnitario * item.quantidade);
                         itemCmd.ExecuteNonQuery();

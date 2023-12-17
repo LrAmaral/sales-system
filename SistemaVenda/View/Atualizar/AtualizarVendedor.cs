@@ -57,10 +57,10 @@ namespace SistemaVenda.Forms
         {
             if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && textBox4.Text.Length > 0)
             {
-                if (dataGridView1.SelectedRows.Count > 0)
-                {
-                    int idUser = int.Parse(dataGridView1.SelectedRows[0].Cells["id"].Value.ToString());
+                int idUser;
 
+                if (int.TryParse(textBox1.Text, out idUser))
+                {
                     if (string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text) || string.IsNullOrWhiteSpace(textBox4.Text))
                     {
                         MessageBox.Show("Preencha todos os campos antes de atualizar o usuário.");
@@ -88,7 +88,7 @@ namespace SistemaVenda.Forms
                 }
                 else
                 {
-                    MessageBox.Show("Selecione um usuário para atualizar.");
+                    MessageBox.Show("Informe um ID válido para atualizar o usuário."); ;
                 }
             }
             else
@@ -109,6 +109,10 @@ namespace SistemaVenda.Forms
                 if (userDataTable.Rows.Count > 0)
                 {
                     dataGridView1.DataSource = userDataTable;
+                    dataGridView1.Visible = true;
+                    textBox2.Text = userDataTable.Rows[0]["nome"].ToString();
+                    textBox3.Text = userDataTable.Rows[0]["senha"].ToString();
+                    textBox4.Text = userDataTable.Rows[0]["papel"].ToString();
                     dataGridView1.Visible = true;
                 }
                 else

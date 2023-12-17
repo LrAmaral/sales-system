@@ -117,7 +117,7 @@ namespace SistemaVenda.Dal
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show($"Erro ao inserir cliente: {ex.Message}");
             }
             finally
             {

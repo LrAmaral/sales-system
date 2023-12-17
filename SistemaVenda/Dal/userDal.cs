@@ -107,9 +107,33 @@ namespace SistemaVenda.Dal
 
             try
             {
+                if (string.IsNullOrWhiteSpace(u.nome))
+                {
+                    MessageBox.Show("Nome não pode estar vazio. Insira um nome válido.");
+                    return false;
+                }
+
+                if (string.IsNullOrWhiteSpace(u.senha))
+                {
+                    MessageBox.Show("Senha não pode estar vazia. Insira uma senha válida.");
+                    return false;
+                }
+
                 if (NomeExistente(u.nome))
                 {
                     MessageBox.Show("Nome já existe. Escolha um nome diferente.");
+                    return false;
+                }
+
+                if (NomeComNumeros(u.nome))
+                {
+                    MessageBox.Show("O nome não pode conter números.");
+                    return false;
+                }
+
+                if (NomeComCaracteresEspeciais(u.nome))
+                {
+                    MessageBox.Show("O nome não pode conter caracteres especiais.");
                     return false;
                 }
 
@@ -181,6 +205,11 @@ namespace SistemaVenda.Dal
         {
             return nome.Any(char.IsDigit);
         }
+
+        private bool NomeComCaracteresEspeciais(string nome)
+        {
+            return nome.Any(c => !char.IsLetterOrDigit(c));
+        }
         #endregion
 
         #region atualizar dados no banco de dados
@@ -188,8 +217,39 @@ namespace SistemaVenda.Dal
         {
             bool isSucesso = false;
             SqlConnection con = new SqlConnection(_connectionString);
+
             try
             {
+
+                if (NomeComNumeros(u.nome))
+                {
+                    MessageBox.Show("O nome não pode conter números.");
+                    return false;
+                }
+
+                if (NomeComCaracteresEspeciais(u.nome))
+                {
+                    MessageBox.Show("O nome não pode conter caracteres especiais.");
+                    return false;
+                }
+
+                string nomeAtual = NomeAtual(u.id);
+
+                if (nomeAtual != u.nome)
+                {
+                    if (NomeExistente(u.nome))
+                    {
+                        MessageBox.Show("Nome já existe. Escolha um nome diferente.");
+                        return false;
+                    }
+                }
+
+                if (!PapelValido(u.papel))
+                {
+                    MessageBox.Show("Papel inválido. Escolha 'vendedor' ou 'gerente'.");
+                    return false;
+                }
+
                 String sql = "UPDATE tbl_Usuario SET nome = @nome, senha = @senha, papel = @papel WHERE id = @id";
                 SqlCommand cmd = new SqlCommand(sql, con);
 
@@ -218,7 +278,22 @@ namespace SistemaVenda.Dal
             {
                 con.Close();
             }
+
             return isSucesso;
+        }
+
+        private string NomeAtual(int userId)
+        {
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            {
+                string sql = "SELECT nome FROM tbl_Usuario WHERE id = @id";
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.Parameters.AddWithValue("@id", userId);
+                    con.Open();
+                    return cmd.ExecuteScalar()?.ToString();
+                }
+            }
         }
         #endregion
 

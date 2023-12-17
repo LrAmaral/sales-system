@@ -82,6 +82,7 @@ namespace SistemaVenda.Forms
                     textBox3.Text = produtoDataTable.Rows[0]["modelo"].ToString();
                     textBox5.Text = produtoDataTable.Rows[0]["descricao"].ToString();
                     textBox4.Text = produtoDataTable.Rows[0]["preco"].ToString();
+                    textBox1.Enabled = false;
                 }
                 else
                 {
@@ -100,9 +101,11 @@ namespace SistemaVenda.Forms
         {
             if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && textBox4.Text.Length > 0)
             {
-                if (dataGridView1.SelectedRows.Count > 0)
+
+                int idProduto;
+
+                if (int.TryParse(textBox1.Text, out idProduto))
                 {
-                    int idProduto = int.Parse(dataGridView1.SelectedRows[0].Cells["id"].Value.ToString());
 
                     if (string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text) || string.IsNullOrWhiteSpace(textBox4.Text))
                     {
@@ -110,7 +113,13 @@ namespace SistemaVenda.Forms
                         return;
                     }
 
-                    if (!decimal.TryParse(textBox4.Text, out decimal preco))
+                    if (string.IsNullOrWhiteSpace(textBox5.Text))
+                    {
+                        MessageBox.Show("A descrição precisa ser preenchida!");
+                        return;
+                    }
+
+                    if (!decimal.TryParse(textBox4.Text, out decimal preco) || preco <= 0)
                     {
                         MessageBox.Show("Informe um preço válido.");
                         return;
@@ -131,6 +140,7 @@ namespace SistemaVenda.Forms
                     {
                         MessageBox.Show("Produto atualizado com sucesso!");
                         button3_Click(sender, e);
+                        LimparCampos();
                     }
                     else
                     {
@@ -139,7 +149,7 @@ namespace SistemaVenda.Forms
                 }
                 else
                 {
-                    MessageBox.Show("Selecione um produto para atualizar.");
+                    MessageBox.Show("Informe um ID válido para atualizar o produto.");
                 }
             }
             else
@@ -149,8 +159,19 @@ namespace SistemaVenda.Forms
                     MessageBoxButtons.OKCancel,
                     MessageBoxIcon.Warning);
             }
-
         }
+
+        private void LimparCampos()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+
+            textBox1.Enabled = true;
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {

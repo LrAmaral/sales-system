@@ -9,6 +9,6 @@
     "\\SistemaVenda\\View\\Listar",
     "\\SistemaVenda\\View\\Painel"
   ],
-  "SelectedNode": "\\SistemaVenda\\View\\Form\\FormVenda.cs",
+  "SelectedNode": "\\SistemaVenda\\View\\Buscar\\ClienteBusca.cs",
   "PreviewInSolutionExplorer": false
 }

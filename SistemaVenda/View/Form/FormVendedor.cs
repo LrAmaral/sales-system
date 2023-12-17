@@ -41,12 +41,16 @@ namespace SistemaVenda.Forms
 
         }
 
+        private bool NomeApenasLetras(string nome)
+        {
+            return nome.All(char.IsLetter);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-
-                if (string.IsNullOrEmpty(textBox1.Text))
+                if (string.IsNullOrWhiteSpace(textBox1.Text))
                 {
                     MessageBox.Show("Por favor, insira o nome.",
                         "Alerta",
@@ -58,6 +62,15 @@ namespace SistemaVenda.Forms
                 if (textBox1.Text.Any(char.IsDigit))
                 {
                     MessageBox.Show("O nome não pode conter números.",
+                        "Alerta",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!NomeApenasLetras(textBox1.Text))
+                {
+                    MessageBox.Show("O nome não pode conter caracteres especiais ou números.",
                         "Alerta",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Warning);
@@ -82,7 +95,7 @@ namespace SistemaVenda.Forms
                     return;
                 }
 
-                if (string.IsNullOrEmpty(textBox2.Text))
+                if (string.IsNullOrWhiteSpace(textBox2.Text))
                 {
                     MessageBox.Show("Por favor, insira o papel.",
                         "Alerta",

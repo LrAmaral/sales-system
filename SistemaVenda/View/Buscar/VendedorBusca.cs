@@ -33,16 +33,24 @@ namespace SistemaVenda
 
             if (int.TryParse(textBox1.Text, out int codUsuario))
             {
-                DataTable dt = dal.FindById(codUsuario);
-
-                if (dt.Rows.Count > 0)
+                if (codUsuario <= 0)
                 {
-                    dataGridView1.DataSource = dt;
+                    MessageBox.Show("O código do usuário a ser procurado não pode ser um número negativo ou 0.");
+                    dataGridView1.DataSource = null;
                 }
                 else
                 {
-                    MessageBox.Show("Usuario não encontrado.");
-                    dataGridView1.DataSource = null;
+                    DataTable dt = dal.FindById(codUsuario);
+
+                    if (dt.Rows.Count > 0)
+                    {
+                        dataGridView1.DataSource = dt;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario não encontrado.");
+                        dataGridView1.DataSource = null;
+                    }
                 }
             }
             else

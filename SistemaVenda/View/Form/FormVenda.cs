@@ -124,14 +124,16 @@ namespace SistemaVenda.Forms
                     return;
                 }
 
-                if (quantidade < 0)
+                if (quantidade <= 0)
                 {
-                    MessageBox.Show("Quantidade não pode ser um número negativo.",
+                    MessageBox.Show("Quantidade não pode ser um número negativo ou 0.",
                         "Alerta crítico",
                         MessageBoxButtons.OKCancel,
                         MessageBoxIcon.Warning);
                     return;
                 }
+
+                textBox1.Enabled = false;
 
                 decimal precoProduto = dal.ObterTotalProduto(codProduto);
 
@@ -171,7 +173,6 @@ namespace SistemaVenda.Forms
                 }
 
                 vendaDal dal = new vendaDal();
-
                 bool success = dal.Insert(v);
                 if (success)
                 {
@@ -189,17 +190,16 @@ namespace SistemaVenda.Forms
             }
         }
 
-        private void LimparDataGridView()
-        {
-            bindingSource.DataSource = null;
-            dataGridView1.DataSource = bindingSource;
-        }
-            private void LimparCampos()
+        private void LimparCampos()
         {
             textBox1.Clear();
             textBox2.Clear();
             textBox4.Clear();
             v = new venda();
+
+            AtualizarDadosDoGridView();
+
+            textBox1.Enabled = true;
         }
 
         private void AtualizarDadosDoGridView()
@@ -252,8 +252,40 @@ namespace SistemaVenda.Forms
                     return;
                 }
             }
-
             this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                if (v.Itens.Count == 0)
+                {
+                    MessageBox.Show("A compra ainda não foi iniciada.",
+                                    "Aviso",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+                    return;
+                }
+
+                if (dataGridView1.SelectedRows.Count > 0)
+                {
+                    int codigoProduto = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Código do Produto"].Value);
+
+                    v.Itens.RemoveAll(item => item.codProduto == codigoProduto);
+
+                    AtualizarDadosDoGridView();
+                }
+                else
+                {
+                    MessageBox.Show("Selecione uma linha para excluir o produto da venda.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocorreu um erro ao excluir o produto da venda: {ex.ToString()}");
+            }
         }
     }
 }

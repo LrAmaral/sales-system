@@ -15,12 +15,12 @@ namespace SistemaVenda.View.Painel
 {
     public partial class Cadastro : Form
     {
-        private userDal _userDal; 
+        private userDal _userDal;
 
         public Cadastro()
         {
             InitializeComponent();
-            _userDal = new userDal(); 
+            _userDal = new userDal();
             CenterToScreen();
         }
 
@@ -85,6 +85,11 @@ namespace SistemaVenda.View.Painel
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 

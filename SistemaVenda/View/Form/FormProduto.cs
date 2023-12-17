@@ -55,11 +55,19 @@ namespace SistemaVenda
 
         }
 
+        private void LimparCampos()
+        {
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
+            textBox4.Text = string.Empty;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                if (string.IsNullOrEmpty(textBox1.Text))
+                if (string.IsNullOrWhiteSpace(textBox1.Text))
                 {
                     MessageBox.Show("Por favor, insira a marca.",
                         "Alerta",
@@ -77,7 +85,7 @@ namespace SistemaVenda
                     return;
                 }
 
-                if (string.IsNullOrEmpty(textBox2.Text))
+                if (string.IsNullOrWhiteSpace(textBox2.Text))
                 {
                     MessageBox.Show("Por favor, insira o modelo.",
                         "Alerta",
@@ -86,7 +94,7 @@ namespace SistemaVenda
                     return;
                 }
 
-                if (string.IsNullOrEmpty(textBox3.Text))
+                if (string.IsNullOrWhiteSpace(textBox3.Text))
                 {
                     MessageBox.Show("Por favor, insira a descrição.",
                         "Alerta",
@@ -95,7 +103,7 @@ namespace SistemaVenda
                     return;
                 }
 
-                if (string.IsNullOrEmpty(textBox4.Text))
+                if (string.IsNullOrWhiteSpace(textBox4.Text))
                 {
                     MessageBox.Show("Por favor, insira o preço.",
                         "Alerta",
@@ -135,6 +143,7 @@ namespace SistemaVenda
                 if (success)
                 {
                     MessageBox.Show("Cadastro realizado com sucesso!");
+                    LimparCampos();
                 }
                 else
                 {

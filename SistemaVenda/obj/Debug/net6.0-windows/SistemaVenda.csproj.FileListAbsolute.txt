@@ -317,3 +317,4 @@ C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\
 C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.pdb
 C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.genruntimeconfig.cache
 C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\ref\SistemaVenda.dll
+C:\Users\Luciano\Downloads\ProvaFinal\sistema-venda-master\sistema-venda-master\SistemaVenda\obj\Debug\net6.0-windows\SistemaVenda.sourcelink.json

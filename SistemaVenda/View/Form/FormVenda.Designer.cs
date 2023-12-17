@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            button4 = new Button();
             button1 = new Button();
             textBox2 = new TextBox();
             label2 = new Label();
@@ -45,6 +46,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(button4);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(textBox2);
             groupBox1.Controls.Add(label2);
@@ -63,6 +65,17 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Formulário de Venda - CommerceMaster";
             groupBox1.Enter += groupBox1_Enter;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Yellow;
+            button4.Location = new Point(505, 373);
+            button4.Name = "button4";
+            button4.Size = new Size(136, 40);
+            button4.TabIndex = 18;
+            button4.Text = "Remover";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button1
             // 
@@ -103,7 +116,7 @@
             button3.BackgroundImageLayout = ImageLayout.None;
             button3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = Color.Cornsilk;
-            button3.Location = new Point(504, 373);
+            button3.Location = new Point(362, 373);
             button3.Name = "button3";
             button3.Size = new Size(137, 40);
             button3.TabIndex = 14;
@@ -202,5 +215,6 @@
         private TextBox textBox2;
         private Label label2;
         private Button button1;
+        private Button button4;
     }
 }

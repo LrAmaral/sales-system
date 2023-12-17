@@ -35,16 +35,24 @@ namespace SistemaVenda.Forms
 
             if (int.TryParse(textBox1.Text, out int codProduto))
             {
-                DataTable dt = dal.FindById(codProduto);
-
-                if (dt.Rows.Count > 0)
+                if (codProduto <= 0)
                 {
-                    dataGridView1.DataSource = dt;
+                    MessageBox.Show("O código do produto a ser procurado não pode ser um número negativo ou 0.");
+                    dataGridView1.DataSource = null;
                 }
                 else
                 {
-                    MessageBox.Show("Produto não encontrado.");
-                    dataGridView1.DataSource = null;
+                    DataTable dt = dal.FindById(codProduto);
+
+                    if (dt.Rows.Count > 0)
+                    {
+                        dataGridView1.DataSource = dt;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Produto não encontrado.");
+                        dataGridView1.DataSource = null;
+                    }
                 }
             }
             else

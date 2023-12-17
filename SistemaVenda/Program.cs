@@ -12,7 +12,7 @@ namespace SistemaVenda
             ApplicationConfiguration.Initialize();
             //Application.Run(new MenuLogin());
             //Application.Run(new PainelPrincipalGerente());
-            Application.Run(new GerenciarVendas());
+            Application.Run(new DeletarCliente());
         }
     }
 }

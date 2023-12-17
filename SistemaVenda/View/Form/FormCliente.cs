@@ -62,13 +62,27 @@ namespace SistemaVenda
 
         }
 
+        private bool NomeApenasLetras(string nome)
+        {
+            return nome.All(char.IsLetter);
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             try
             {
-                if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && textBox4.Text.Length > 0)
+                if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox2.Text.Length > 0 && textBox4.Text.Length > 0)
                 {
                     c.nome = textBox1.Text;
+
+                    if (!NomeApenasLetras(textBox1.Text))
+                    {
+                        MessageBox.Show("O nome do cliente deve conter apenas letras.",
+                            "Alerta crítico",
+                            MessageBoxButtons.OKCancel,
+                            MessageBoxIcon.Warning);
+                        return;
+                    }
 
                     if (long.TryParse(textBox2.Text, out long cpf))
                     {
@@ -99,6 +113,15 @@ namespace SistemaVenda
                         if (idade < 0)
                         {
                             MessageBox.Show("A idade não pode ser um número negativo.",
+                                "Alerta crítico",
+                                MessageBoxButtons.OKCancel,
+                                MessageBoxIcon.Warning);
+                            return;
+                        }
+
+                        if (idade > 2)
+                        {
+                            MessageBox.Show("A idade não pode ser um número com mais de 2 dígitos.",
                                 "Alerta crítico",
                                 MessageBoxButtons.OKCancel,
                                 MessageBoxIcon.Warning);
@@ -144,6 +167,7 @@ namespace SistemaVenda
                 MessageBox.Show($"Ocorreu um erro: {ex.ToString()}");
             }
         }
+
 
         private void button2_Click(object sender, EventArgs e)
 

@@ -49,16 +49,18 @@ namespace SistemaVenda.Forms
                 {
                     dataGridView1.DataSource = itensVendaEncontrados;
                     dataGridView1.Visible = true;
+                    textBox1.Enabled = false;
 
 
                     if (dataGridView1.Columns.Contains("ValorUnitario"))
                     {
                         dataGridView1.Columns["ValorUnitario"].Visible = false;
                     }
+
                 }
                 else
                 {
-                    MessageBox.Show("Itens de venda não encontrados para a venda especificada.");
+                    MessageBox.Show("Itens de venda não encontrados para a venda especificada ou a venda não existe.");
                     dataGridView1.Visible = false;
                 }
             }
@@ -109,6 +111,7 @@ namespace SistemaVenda.Forms
                             {
                                 MessageBox.Show("Venda atualizada com sucesso!");
                                 button3_Click(sender, e);
+                                LimparCampos();
                             }
                             else
                             {
@@ -133,6 +136,15 @@ namespace SistemaVenda.Forms
                     MessageBoxButtons.OKCancel,
                     MessageBoxIcon.Warning);
             }
+        }
+
+        private void LimparCampos()
+        {
+            textBox1.Clear();
+            textBox4.Clear();
+
+            textBox1.Enabled = true;
+            dataGridView1.DataSource = null;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

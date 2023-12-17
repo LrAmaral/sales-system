@@ -35,16 +35,19 @@
             tbSenha = new TextBox();
             textBox1 = new TextBox();
             Papel = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(277, 198);
+            btnCadastrar.BackColor = Color.FromArgb(0, 192, 0);
+            btnCadastrar.ForeColor = Color.Cornsilk;
+            btnCadastrar.Location = new Point(247, 199);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(75, 23);
+            btnCadastrar.Size = new Size(105, 38);
             btnCadastrar.TabIndex = 0;
             btnCadastrar.Text = "Cadastrar";
-            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.UseVisualStyleBackColor = false;
             btnCadastrar.Click += button1_Click;
             // 
             // label1
@@ -99,11 +102,22 @@
             Papel.TabIndex = 3;
             Papel.Text = "Papel";
             // 
+            // button1
+            // 
+            button1.Location = new Point(35, 207);
+            button1.Name = "button1";
+            button1.Size = new Size(91, 23);
+            button1.TabIndex = 5;
+            button1.Text = "Voltar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
             // Cadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(384, 249);
+            ClientSize = new Size(382, 262);
+            Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(Papel);
             Controls.Add(tbSenha);
@@ -127,5 +141,6 @@
         private TextBox tbSenha;
         private TextBox textBox1;
         private Label Papel;
+        private Button button1;
     }
 }
