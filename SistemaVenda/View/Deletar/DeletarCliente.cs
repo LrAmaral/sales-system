@@ -39,10 +39,8 @@ namespace SistemaVenda
         {
             try
             {
-                if (textBox1.Text.Length > 0)
+                if (int.TryParse(textBox1.Text, out int codCliente))
                 {
-                    int codCliente = int.Parse(textBox1.Text);
-
                     clienteDal dal = new clienteDal();
 
                     bool hasVendas = dal.ClientesNaVenda(codCliente);
@@ -58,6 +56,7 @@ namespace SistemaVenda
                         if (success)
                         {
                             MessageBox.Show("Cliente excluído com sucesso!");
+                            LimparCampo();
                         }
                         else
                         {
@@ -67,13 +66,18 @@ namespace SistemaVenda
                 }
                 else
                 {
-                    MessageBox.Show("Informe o ID do cliente a ser excluído.");
+                    MessageBox.Show("Informe um ID de cliente válido.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocorreu um erro ao excluir o cliente: {ex.Message}");
+                MessageBox.Show($"Ocorreu um erro ao excluir o cliente.");
             }
+        }
+
+        private void LimparCampo()
+        {
+            textBox1.Clear();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

@@ -183,7 +183,7 @@ namespace SistemaVenda.Dal
             {
                 if (ClientesNaVenda(codCliente))
                 {
-                    throw new Exception("Não é possível excluir o cliente porque existem vendas associadas a ele.");
+                    MessageBox.Show("Não é possível excluir o cliente porque existem vendas associadas a ele.");
                 }
 
                 String sql = "DELETE FROM tbl_Cliente WHERE id = @id";
@@ -201,11 +201,6 @@ namespace SistemaVenda.Dal
                 {
                     isSucesso = true;
                     transaction.Commit();
-                }
-                else
-                {
-                    isSucesso = false;
-                    throw new Exception("Não foi possível excluir o cliente. Verifique os dados e tente novamente.");
                 }
             }
             catch (Exception ex)

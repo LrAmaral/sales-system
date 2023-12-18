@@ -28,10 +28,8 @@ namespace SistemaVenda
         {
             try
             {
-                if (textBox1.Text.Length > 0)
-                {
-                    int codProduto = int.Parse(textBox1.Text);
-
+                if (int.TryParse(textBox1.Text, out int codProduto))
+                {                 
                     produtoDal dal = new produtoDal();
 
                     bool hasVendas = dal.ProdutoNaVenda(codProduto);
@@ -47,6 +45,7 @@ namespace SistemaVenda
                         if (success)
                         {
                             MessageBox.Show("Produto excluído com sucesso!");
+                            LimparCampo();
                         }
                         else
                         {
@@ -56,13 +55,18 @@ namespace SistemaVenda
                 }
                 else
                 {
-                    MessageBox.Show("Informe o ID do produto a ser excluído.");
+                    MessageBox.Show("Informe um ID de produto válido.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocorreu um erro ao excluir o produto: {ex.Message}");
+                MessageBox.Show($"Ocorreu um erro ao excluir o produto.");
             }
+        }
+
+        private void LimparCampo()
+        {
+            textBox1.Clear();
         }
     }
 }

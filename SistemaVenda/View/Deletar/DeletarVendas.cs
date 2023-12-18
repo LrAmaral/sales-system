@@ -45,6 +45,7 @@ namespace SistemaVenda
                     if (success)
                     {
                         MessageBox.Show("Venda excluída com sucesso!");
+                        LimparCampo();
                     }
                     else
                     {
@@ -61,7 +62,10 @@ namespace SistemaVenda
                 MessageBox.Show($"Ocorreu um erro ao excluir a venda: {ex.Message}");
             }
         }
-
+        private void LimparCampo()
+        {
+            textBox1.Clear();
+        }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
