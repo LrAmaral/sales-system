@@ -22,10 +22,13 @@ namespace SistemaVenda.View.Painel
             InitializeComponent();
             _userDal = new userDal();
             CenterToScreen();
+            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+                
             if (textBox1.Text.Length > 0 && tbNome.Text.Length > 0 && tbSenha.Text.Length > 0)
             {
                 string nome = tbNome.Text;
@@ -38,17 +41,13 @@ namespace SistemaVenda.View.Painel
                     senha = senha,
                     papel = papel
                 };
-
+                
                 bool sucesso = _userDal.Insert(newUser);
 
                 if (sucesso)
                 {
                     MessageBox.Show("Inserção bem-sucedida!");
                     LimparCampos();
-                }
-                else
-                {
-                    MessageBox.Show("Falha na inserção. Verifique os detalhes.");
                 }
             }
             else

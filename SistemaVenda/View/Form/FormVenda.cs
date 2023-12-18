@@ -52,7 +52,7 @@ namespace SistemaVenda.Forms
         {
             try
             {
-                if (string.IsNullOrEmpty(textBox1.Text) || string.IsNullOrEmpty(textBox2.Text) || string.IsNullOrEmpty(textBox4.Text))
+                if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox4.Text))
                 {
                     MessageBox.Show("Por favor, preencha todos os campos.",
                         "Alerta",

@@ -31,35 +31,30 @@ namespace SistemaVenda
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
             try
             {
-                if (textBox1.Text.Length > 0)
+                if (!int.TryParse(textBox1.Text, out int vendaId) || vendaId <= 0)
                 {
-                    int vendaId = int.Parse(textBox1.Text);
+                    MessageBox.Show("Digite um ID de venda válido (números inteiros positivos).");
+                    return;
+                }
 
-                    vendaDal dal = new vendaDal();
+                vendaDal dal = new vendaDal();
+                bool success = dal.Delete(vendaId);
 
-                    bool success = dal.Delete(vendaId);
-
-                    if (success)
-                    {
-                        MessageBox.Show("Venda excluída com sucesso!");
-                        LimparCampo();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Não foi possível excluir a venda. Verifique os dados e tente novamente.");
-                    }
+                if (success)
+                {
+                    MessageBox.Show("Venda excluída com sucesso!");
+                    LimparCampo();
                 }
                 else
                 {
-                    MessageBox.Show("Informe o ID da venda a ser excluída.");
+                    MessageBox.Show("Não foi possível excluir a venda. Verifique os dados e tente novamente.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocorreu um erro ao excluir a venda: {ex.Message}");
+                MessageBox.Show($"Ocorreu um erro ao excluir a venda.");
             }
         }
         private void LimparCampo()

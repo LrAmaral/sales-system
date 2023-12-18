@@ -107,19 +107,24 @@ namespace SistemaVenda.Forms
                 if (int.TryParse(textBox1.Text, out idProduto))
                 {
 
-                    if (string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text) || string.IsNullOrWhiteSpace(textBox4.Text))
+                    if (string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(textBox3.Text) || string.IsNullOrWhiteSpace(textBox4.Text) || string.IsNullOrWhiteSpace(textBox5.Text))
                     {
                         MessageBox.Show("Preencha todos os campos antes de atualizar o produto.");
                         return;
                     }
 
-                    if (string.IsNullOrWhiteSpace(textBox5.Text))
+                    if (!textBox3.Text.All(char.IsLetterOrDigit))
                     {
-                        MessageBox.Show("A descrição precisa ser preenchida!");
+                        MessageBox.Show("O modelo deve conter apenas caracteres alfanuméricos.",
+                            "Alerta crítico",
+                            MessageBoxButtons.OKCancel,
+                            MessageBoxIcon.Warning);
                         return;
                     }
 
-                    if (!decimal.TryParse(textBox4.Text, out decimal preco) || preco <= 0)
+                    decimal preco;
+
+                    if (!Decimal.TryParse(textBox4.Text.Replace(',', '.'), System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out preco) || preco <= 0)
                     {
                         MessageBox.Show("Informe um preço válido.");
                         return;

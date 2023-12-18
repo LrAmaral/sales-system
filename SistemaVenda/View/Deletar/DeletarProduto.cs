@@ -28,8 +28,8 @@ namespace SistemaVenda
         {
             try
             {
-                if (int.TryParse(textBox1.Text, out int codProduto))
-                {                 
+                if (int.TryParse(textBox1.Text, out int codProduto) && codProduto > 0)
+                {
                     produtoDal dal = new produtoDal();
 
                     bool hasVendas = dal.ProdutoNaVenda(codProduto);
@@ -55,12 +55,12 @@ namespace SistemaVenda
                 }
                 else
                 {
-                    MessageBox.Show("Informe um ID de produto válido.");
+                    MessageBox.Show("Informe um ID de produto válido (números inteiros positivos).");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocorreu um erro ao excluir o produto.");
+                MessageBox.Show($"Ocorreu um erro ao excluir o produto: {ex.Message}");
             }
         }
 

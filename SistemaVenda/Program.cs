@@ -10,9 +10,9 @@ namespace SistemaVenda
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            //Application.Run(new MenuLogin());
+            Application.Run(new MenuLogin());
             //Application.Run(new PainelPrincipalGerente());
-            Application.Run(new DeletarCliente());
+            //Application.Run(new PainelPrincipalGerente());
         }
     }
-}
+}   

@@ -76,20 +76,20 @@ namespace SistemaVenda
                     return;
                 }
 
-                if (textBox1.Text.Any(char.IsDigit))
+                if (string.IsNullOrWhiteSpace(textBox2.Text))
                 {
-                    MessageBox.Show("A marca não pode conter números.",
+                    MessageBox.Show("Por favor, insira o modelo.",
                         "Alerta",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Warning);
                     return;
                 }
 
-                if (string.IsNullOrWhiteSpace(textBox2.Text))
+                if (!textBox2.Text.All(char.IsLetterOrDigit))
                 {
-                    MessageBox.Show("Por favor, insira o modelo.",
-                        "Alerta",
-                        MessageBoxButtons.OK,
+                    MessageBox.Show("O modelo deve conter apenas caracteres alfanuméricos.",
+                        "Alerta crítico",
+                        MessageBoxButtons.OKCancel,
                         MessageBoxIcon.Warning);
                     return;
                 }
@@ -115,12 +115,12 @@ namespace SistemaVenda
                 p.marca = textBox1.Text;
                 p.modelo = textBox2.Text;
                 p.descricao = textBox3.Text;
-
-                if (decimal.TryParse(textBox4.Text, out decimal preco))
+            
+                if (decimal.TryParse(textBox4.Text.Replace(',', '.'), System.Globalization.NumberStyles.AllowDecimalPoint, System.Globalization.CultureInfo.InvariantCulture, out decimal preco))
                 {
-                    if (preco < 0)
+                    if (preco <= 0)
                     {
-                        MessageBox.Show("O preço não pode ser um número negativo.",
+                        MessageBox.Show("O preço deve ser um número maior que zero.",
                             "Alerta crítico",
                             MessageBoxButtons.OKCancel,
                             MessageBoxIcon.Warning);
@@ -129,7 +129,6 @@ namespace SistemaVenda
 
                     p.preco = preco;
                 }
-
                 else
                 {
                     MessageBox.Show("Preço inválido. Certifique-se de inserir um valor numérico válido para o Preço.",

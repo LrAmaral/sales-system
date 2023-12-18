@@ -9,6 +9,7 @@ using System.Text;
 using SistemaVenda.Classes;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace SistemaVenda.Forms
 {
@@ -52,9 +53,18 @@ namespace SistemaVenda.Forms
                         return;
                     }
 
-                    if (!int.TryParse(textBox3.Text, out int idade) || idade <= 0 || textBox3.Text.Length != 2)
+                    if (!NomeContemApenasLetrasOuEspacos(textBox2.Text))
                     {
-                        MessageBox.Show("Informe uma idade válida, não é permitido letras, nem valores negativos, mais de 2 dígitos ou 0 nesse campo.");
+                        MessageBox.Show("O nome do cliente deve conter apenas letras e espaços.",
+                            "Alerta crítico",
+                            MessageBoxButtons.OKCancel,
+                            MessageBoxIcon.Warning);
+                        return;
+                    }
+
+                    if (!int.TryParse(textBox3.Text, out int idade) || idade <= 0 || textBox3.Text.Length != 2 || idade < 18)
+                    {
+                        MessageBox.Show("Informe uma idade válida, não é permitido letras, nem valores negativos, mais de 2 dígitos, menor de 18 ou 0 nesse campo.");
                         return;
                     }
 
@@ -92,6 +102,11 @@ namespace SistemaVenda.Forms
                     MessageBoxButtons.OKCancel,
                     MessageBoxIcon.Warning);
             }
+        }
+
+        private bool NomeContemApenasLetrasOuEspacos(string nome)
+        {
+            return Regex.IsMatch(nome, @"^[a-zA-Z\s]+$");
         }
 
         private void LimparCampos()

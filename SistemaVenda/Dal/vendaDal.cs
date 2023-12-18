@@ -131,7 +131,7 @@ namespace SistemaVenda.Dal
                             {
                                 if (!ProdutoExiste(item.codProduto))
                                 {
-                                    throw new Exception($"Produto com código {item.codProduto} não encontrado. Certifique-se de inserir produtos existentes.");
+                                    MessageBox.Show($"Produto com código {item.codProduto} não encontrado. Certifique-se de inserir produtos existentes.");
                                 }
                             }
 

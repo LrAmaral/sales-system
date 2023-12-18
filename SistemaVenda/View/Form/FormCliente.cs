@@ -64,7 +64,7 @@ namespace SistemaVenda
 
         private bool NomeApenasLetras(string nome)
         {
-            return nome.All(char.IsLetter);
+            return Regex.IsMatch(nome, @"^[a-zA-Z\s]+$");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -84,24 +84,17 @@ namespace SistemaVenda
                         return;
                     }
 
-                    if (long.TryParse(textBox2.Text, out long cpf))
+                    string cpfInput = textBox2.Text;
+
+                    string onlyNumbers = Regex.Replace(cpfInput, @"[^\d]", "");
+
+                    if (onlyNumbers.Length == 11 && long.TryParse(onlyNumbers, out long cpf) && cpf != 0)
                     {
-                        if (cpf.ToString().Length == 11)
-                        {
-                            c.cpf = cpf;
-                        }
-                        else
-                        {
-                            MessageBox.Show("CPF inválido. Certifique-se de inserir um valor numérico válido para o CPF com exatamente 11 dígitos.",
-                                "Alerta crítico",
-                                MessageBoxButtons.OKCancel,
-                                MessageBoxIcon.Warning);
-                            return;
-                        }
+                        c.cpf = cpf;
                     }
                     else
                     {
-                        MessageBox.Show("CPF inválido. Certifique-se de inserir um valor numérico válido para o CPF.",
+                        MessageBox.Show("CPF inválido. Certifique-se de inserir um valor numérico válido para o CPF com exatamente 11 dígitos.",
                             "Alerta crítico",
                             MessageBoxButtons.OKCancel,
                             MessageBoxIcon.Warning);
@@ -119,9 +112,18 @@ namespace SistemaVenda
                             return;
                         }
 
-                        if (idade > 2)
+                        if (textBox4.Text.Length != 2)
                         {
-                            MessageBox.Show("A idade não pode ser um número com mais de 2 dígitos.",
+                            MessageBox.Show("A idade é inválida.",
+                                "Alerta crítico",
+                                MessageBoxButtons.OKCancel,
+                                MessageBoxIcon.Warning);
+                            return;
+                        }
+
+                        if (idade < 18)
+                        {
+                            MessageBox.Show("O cliente não pode ter menos de 18 anos.",
                                 "Alerta crítico",
                                 MessageBoxButtons.OKCancel,
                                 MessageBoxIcon.Warning);

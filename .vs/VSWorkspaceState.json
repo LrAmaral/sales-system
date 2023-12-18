@@ -5,10 +5,11 @@
     "\\SistemaVenda\\Dal",
     "\\SistemaVenda\\View",
     "\\SistemaVenda\\View\\Buscar",
+    "\\SistemaVenda\\View\\Deletar",
     "\\SistemaVenda\\View\\Form",
     "\\SistemaVenda\\View\\Listar",
     "\\SistemaVenda\\View\\Painel"
   ],
-  "SelectedNode": "\\SistemaVenda\\Program.cs",
+  "SelectedNode": "\\SistemaVenda\\View\\Deletar\\DeletarProduto.cs",
   "PreviewInSolutionExplorer": false
 }

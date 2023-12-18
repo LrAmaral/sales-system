@@ -39,7 +39,7 @@ namespace SistemaVenda
         {
             try
             {
-                if (int.TryParse(textBox1.Text, out int codCliente))
+                if (int.TryParse(textBox1.Text, out int codCliente) && codCliente > 0)
                 {
                     clienteDal dal = new clienteDal();
 
@@ -66,12 +66,12 @@ namespace SistemaVenda
                 }
                 else
                 {
-                    MessageBox.Show("Informe um ID de cliente válido.");
+                    MessageBox.Show("Informe um ID de cliente válido (números inteiros positivos).");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocorreu um erro ao excluir o cliente.");
+                MessageBox.Show($"Ocorreu um erro ao excluir o cliente: {ex.Message}");
             }
         }
 
